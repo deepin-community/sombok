@@ -1,0 +1,35 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+override_dh_autoreconf:
+	if [ -f INSTALL ]; then \
+		mv INSTALL INSTALL.bak ; \
+	fi
+	dh_autoreconf
+
+override_dh_autoreconf_clean:
+	dh_autoreconf_clean
+	if [ -f INSTALL.bak ]; then \
+		mv INSTALL.bak INSTALL ; \
+	fi
+
+override_dh_clean:
+	rm -rf doc/doxygen_sqlite3.db
+	if [ -d test-data ]; then \
+		rmdir --ignore-fail-on-non-empty test-data ; \
+	fi
+	dh_clean
+
+override_dh_install:
+	# removing JQuery embedded copy
+	rm -f debian/tmp/usr/share/doc/sombok/jquery.js
+	find debian/tmp/usr/share/doc/sombok -iname '*.md5' -delete
+	dh_install
+
+override_dh_auto_test:
+	# test suite fails in parallel mode
+	dh_auto_test --no-parallel
+
+%:
+	dh $@

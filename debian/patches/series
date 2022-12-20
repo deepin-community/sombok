@@ -1,0 +1,5 @@
+fix_ftbfs_kfreebsd_strepipe
+disable_doxygen_search_engine
+fix_tests_suite
+add_tests_suite_data
+fix_FTCBFS

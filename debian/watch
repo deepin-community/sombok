@@ -1,0 +1,2 @@
+version=3
+opts="uversionmangle=s/2011/1.9/" https://github.com/hatukanezumi/sombok/tags .*/sombok-(\d[\d\.]+)\.tar\.gz

@@ -1,0 +1,44 @@
+%indexedclasses = (
+    'lb' => {
+        '5.1.0' => [qw(BK CR LF NL SP OP CL CP QU GL NS EX SY IS PR PO NU AL HL ID IN HY BA BB B2 ZW CM WJ H2 H3 JL JV JT RI CB)],
+        '5.2.0' => [qw(BK CR LF NL SP OP CL CP QU GL NS EX SY IS PR PO NU AL HL ID IN HY BA BB B2 ZW CM WJ H2 H3 JL JV JT RI CB)],
+        '6.0.0' => [qw(BK CR LF NL SP OP CL CP QU GL NS EX SY IS PR PO NU AL HL ID IN HY BA BB B2 ZW CM WJ H2 H3 JL JV JT RI CB)],
+        '6.1.0' => [qw(BK CR LF NL SP OP CL CP QU GL NS EX SY IS PR PO NU AL HL ID IN HY BA BB B2 ZW CM WJ H2 H3 JL JV JT RI CB)],
+        '6.2.0' => [qw(BK CR LF NL SP OP CL CP QU GL NS EX SY IS PR PO NU AL HL ID IN HY BA BB B2 ZW CM WJ H2 H3 JL JV JT RI CB)],
+        '6.3.0' => [qw(BK CR LF NL SP OP CL CP QU GL NS EX SY IS PR PO NU AL HL ID IN HY BA BB B2 ZW CM WJ H2 H3 JL JV JT RI CB)],
+        '7.0.0' => [qw(BK CR LF NL SP OP CL CP QU GL NS EX SY IS PR PO NU AL HL ID IN HY BA BB B2 ZW CM WJ H2 H3 JL JV JT RI CB)],
+        '8.0.0' => [qw(BK CR LF NL SP OP CL CP QU GL NS EX SY IS PR PO NU AL HL ID IN HY BA BB B2 ZW CM WJ H2 H3 JL JV JT RI CB)],
+    },
+    'ea' => {
+        '5.1.0' => [qw(Z Na N A W H F ZA ZW)],
+        '5.2.0' => [qw(Z Na N A W H F ZA ZW)],
+        '6.0.0' => [qw(Z Na N A W H F ZA ZW)],
+        '6.1.0' => [qw(Z Na N A W H F ZA ZW)],
+        '6.2.0' => [qw(Z Na N A W H F ZA ZW)],
+        '6.3.0' => [qw(Z Na N A W H F ZA ZW)],
+        '7.0.0' => [qw(Z Na N A W H F ZA ZW)],
+        '8.0.0' => [qw(Z Na N A W H F ZA ZW)],
+    },
+    'gb' => {
+        '5.1.0' => [qw(CR LF Control Extend Prepend SpacingMark L V T LV LVT Other Virama OtherLetter)],
+        '5.2.0' => [qw(CR LF Control Extend Prepend SpacingMark L V T LV LVT Other Virama OtherLetter)],
+        '6.0.0' => [qw(CR LF Control Extend Prepend SpacingMark L V T LV LVT Other Virama OtherLetter)],
+        '6.1.0' => [qw(CR LF Control Extend Prepend SpacingMark L V T LV LVT Other Virama OtherLetter)],
+        '6.2.0' => [qw(CR LF Control Extend Prepend SpacingMark L V T LV LVT Other Virama OtherLetter Regional_Indicator)],
+        '6.3.0' => [qw(CR LF Control Extend Prepend SpacingMark L V T LV LVT Other Virama OtherLetter Regional_Indicator)],
+        '7.0.0' => [qw(CR LF Control Extend Prepend SpacingMark L V T LV LVT Other Virama OtherLetter Regional_Indicator)],
+        '8.0.0' => [qw(CR LF Control Extend Prepend SpacingMark L V T LV LVT Other Virama OtherLetter Regional_Indicator)],
+    },
+    'sc' => {
+        '5.1.0' => [qw(Common Inherited Unknown Han Hangul Thai Lao Myanmar Khmer Tai_Le New_Tai_Lue)],
+        '5.2.0' => [qw(Common Inherited Unknown Han Hangul Thai Lao Myanmar Khmer Tai_Le New_Tai_Lue Tai_Tham Tai_Viet)],
+        '6.0.0' => [qw(Common Inherited Unknown Han Hangul Thai Lao Myanmar Khmer Tai_Le New_Tai_Lue Tai_Tham Tai_Viet)],
+        '6.1.0' => [qw(Common Inherited Unknown Han Hangul Thai Lao Myanmar Khmer Tai_Le New_Tai_Lue Tai_Tham Tai_Viet)],
+        '6.2.0' => [qw(Common Inherited Unknown Han Hangul Thai Lao Myanmar Khmer Tai_Le New_Tai_Lue Tai_Tham Tai_Viet)],
+        '6.3.0' => [qw(Common Inherited Unknown Han Hangul Thai Lao Myanmar Khmer Tai_Le New_Tai_Lue Tai_Tham Tai_Viet)],
+        '7.0.0' => [qw(Common Inherited Unknown Han Hangul Thai Lao Myanmar Khmer Tai_Le New_Tai_Lue Tai_Tham Tai_Viet)],
+        '8.0.0' => [qw(Common Inherited Unknown Han Hangul Thai Lao Myanmar Khmer Tai_Le New_Tai_Lue Tai_Tham Tai_Viet Ahom)],
+    },
+);
+
+1;

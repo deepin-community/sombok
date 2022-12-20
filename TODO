@@ -1,0 +1,15 @@
+ToDo on next major release:
+
+- offset, length or pos arguments of gcstring_setpos(), gcstring_shrink(),
+  gcstring_substr(), gcstring_replace(), gcstring_lbclass() and
+  gcstring_lbclass_ext() would be ssize_t, not int.
+
+- Following functions would be deprecated:
+  - linebreak_lbrule
+  - linebreak_set_user and user_func/user_data members
+  - linebreak_lbclass
+  - linebreak_eawidth
+
+- Separated libraries for character database, grapheme cluster segmentation
+  and line breaking.
+
